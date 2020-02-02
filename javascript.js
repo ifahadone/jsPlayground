@@ -73,3 +73,17 @@ if (isMarried) {
 } else {
     console.log(firstName + ' will hopefully marry soon :) ');
 }
+
+
+var heightFhd = 1.74; // cm
+var heightFsl = 1.75;
+    var massFhd = 79; //kg
+    var massFsl = 75;
+var BMIFhd = massFhd/(heightFhd*heightFhd);
+var BMIFsl = massFsl/(heightFsl*heightFsl);
+
+if (BMIFhd>BMIFsl) {
+    console.log('Fahad\'s BMI is higher than Faisal')
+} else {
+    console.log('Faisal\'s BMI is higher than Fahad')
+}
