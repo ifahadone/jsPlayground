@@ -1,35 +1,66 @@
-var year, yearFahad, yearFaisal;
-now= 2020;
-ageFahad = 25;
-ageFaisal = 31;
+// var year, yearFahad, yearFaisal;
+// now= 2020;
+// ageFahad = 25;
+// ageFaisal = 31;
 
-// Math Operator
-yearFaisal = now- ageFaisal;
-yearFahad = now - ageFahad;
+// // Math Operator
+// yearFaisal = now- ageFaisal;
+// yearFahad = now - ageFahad;
 
-console.log(yearFaisal);
-console.log(yearFahad);
+// console.log(yearFaisal);
+// console.log(yearFahad);
 
-console.log(now/2);
-console.log(now*2);
-
-
-
-// Logical Operator
-var faisalOlder = ageFaisal > ageFahad;
-var fahadOlder = ageFaisal < ageFahad;
-
-console.log(faisalOlder);
-console.log(fahadOlder);
+// console.log(now/2);
+// console.log(now*2);
 
 
 
-// typeof Operator
-console.log(typeof fahadOlder);
-console.log(typeof ageFahad);
-console.log(typeof 'Faisal is Older than Fahad');
+// // Logical Operator
+// var faisalOlder = ageFaisal > ageFahad;
+// var fahadOlder = ageFaisal < ageFahad;
 
-var x;
-console.log(typeof x);
+// console.log(faisalOlder);
+// console.log(fahadOlder);
 
 
+
+// // typeof Operator
+// console.log(typeof fahadOlder);
+// console.log(typeof ageFahad);
+// console.log(typeof 'Faisal is Older than Fahad');
+
+// var x;
+// console.log(typeof x);
+
+
+
+// // Operator Precedence
+// var now= 2018;
+// var yearJohn = 1989;
+// var fullAge = 18;
+
+// var isFullAge = now-yearJohn >= fullAge;
+
+
+// // challange 1
+// var heightFhd = 1.74; // cm
+// var heightFsl = 1.75;
+
+// var massFhd = 79; //kg
+// var massFsl = 75;
+
+// var BMIFhd = massFhd/(heightFhd*heightFhd);
+// var BMIFsl = massFsl/(heightFsl*heightFsl);
+// console.log(BMIFhd, BMIFsl);
+
+// var fahadHeigherBMI = BMIFhd > BMIFsl;
+// console.log('is Fahad\'s BMI heigher than faisal\'s ' + fahadHeigherBMI);
+
+
+// if else statements
+var firstName = 'fahad';
+var civilStatus = 'single';
+
+if (civilStatus === 'married') {
+    console.log(firstName + ' is married! ')
+}
